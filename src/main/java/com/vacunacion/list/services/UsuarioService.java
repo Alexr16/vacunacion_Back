@@ -64,6 +64,7 @@ public class UsuarioService {
         usuario.setVaccinated(usuarioDetalles.getVaccinated());
         usuario.setVaccineType(usuarioDetalles.getVaccineType());
         usuario.setLastnames(usuarioDetalles.getLastnames());
+        usuario.setVaccineDate(usuarioDetalles.getVaccineDate());
 
         return usuarioRepository.save(usuario);
     }
